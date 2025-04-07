@@ -10,7 +10,7 @@ For more details, see our [bioRxiv preprint](https://www.biorxiv.org/content/10.
 
 ## Data
 We provide the raw multi-view video data for four of the samples in our paper (Figs. 3-6 in the bioRxiv preprint, Figs. 4-7 in the *Optica* paper), which can be downloaded at TBD. Associated with each sample is
-- `raw_video.nc`: raw video file
+- `raw_video.nc`: raw video file (10-sec recordings, 50 GB each)
 - `calibration_parameters.mat`: calibration file, providing the parameters specifying the ray trajectories
 - `occupancy_grid.npz`: a boolean tensor, crudely specifying the organism vs. background
 
