@@ -6,7 +6,7 @@ We present <ins>R</ins>eflective <ins>F</ins>ourier <ins>L</ins>ight field <ins>
 - The ReFLeCT forward model is based on our earlier work with 3D OCRT (https://github.com/kevinczhou/3d-ocrt), which also used a parabolic mirror to obtain very wide view angles.
 
 
-For more details, see our [bioRxiv preprint](https://doi.org/10.1101/2024.09.16.609432).
+For more details, see our [bioRxiv preprint](https://www.biorxiv.org/content/10.1101/2024.09.16.609432v1).
 
 ## Data
 We provide the raw multi-view video data for four of the samples in our paper (Figs. 3-6 in the bioRxiv preprint, Figs. 4-7 in the *Optica* paper), which can be downloaded at TBD. Associated with each sample is
