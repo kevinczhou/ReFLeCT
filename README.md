@@ -2,11 +2,12 @@
 <center><img src="/media/ReFLeCT_overview.png" alt="ReFLeCT" width="800"/></center>
 We present <ins>R</ins>eflective <ins>F</ins>ourier <ins>L</ins>ight field <ins>C</ins>omputed <ins>T</ins>omography (ReFLeCT), a new high-throughput 4D imaging technique based on an array of cameras and a large parabolic mirror objective. The cameras can capture synchronized video at up to 120 fps from multiple views, spanning nearly 2π steradians, from which we can computationally reconstruct 4D volumetric videos of fluorescently-labeled, freely moving organisms, such as fruit fly and zebrafish larvae (even multiple in the same field of view). This repository contains the code for performing the 4D reconstructions. Other related repositories:
 
-- Accompanying repository dedicated to interactive 4D visualization of the reconstructions using napari (https://github.com/kevinczhou/ReFLeCT-4D-visualization). 
+- Accompanying repository dedicated to interactive 4D visualization of the reconstructions using napari (https://github.com/kevinczhou/ReFLeCT-4D-visualization).
+- Code for another interactive visualization using fastplotlib (https://github.com/fastplotlib/light-field-tomography-viz/tree/main). The visualization can be accessed at TBD.
 - The ReFLeCT forward model is based on our earlier work with 3D OCRT (https://github.com/kevinczhou/3d-ocrt), which also used a parabolic mirror to obtain very wide view angles.
 
 
-For more details, see our [bioRxiv preprint](https://www.biorxiv.org/content/10.1101/2024.09.16.609432v1).
+For more details, see our [*Optica* paper](https://opg.optica.org/optica/fulltext.cfm?uri=optica-12-5-674&id=570897) or [bioRxiv preprint](https://www.biorxiv.org/content/10.1101/2024.09.16.609432v1).
 
 ## Data
 We provide the raw multi-view video data for four of the samples in our paper (Figs. 3-6 in the bioRxiv preprint, Figs. 4-7 in the *Optica* paper), which can be downloaded [here](https://doi.org/10.7924/r4zs30t4h). Associated with each sample is
